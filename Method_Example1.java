@@ -7,9 +7,15 @@ public class Method_Example1
 		System.out.println("M1 instance method");
 	}
 	
-		public static void m5()
+	public static void m5()
 	{
 		System.out.println("M5 static Method");
+	}
+
+	public static void m6()
+	{
+		System.out.println("M6 static Method");
+
 	}
 
 	public void m3()  //instance
@@ -25,6 +31,8 @@ public class Method_Example1
 	{
 		
 		m2();
+
+		m6();
 		
 		Method_Example1 mobj=new Method_Example1();
 		
